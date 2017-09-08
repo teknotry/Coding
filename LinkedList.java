@@ -29,7 +29,7 @@ public class LinkedList{
 
 	/* Reverse the linked list iterative
 	 * Time Complexity O(n)
-	 * Space Complexity O(1) 
+	 * Space Complexity O(n) 
 	 **/
 	public static ListNode reverseRecurr(ListNode head){
 		if(head == null || head.next == null)
